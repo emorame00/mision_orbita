@@ -18,3 +18,14 @@ El proyecto incluye cuatro ejercicios en Python:
 
 - avance1: contiene los cuatro programas.
 - documentacion: contiene el informe y los diagramas de flujo.
+
+## Cómo ejecutar los programas
+
+Se necesita Python 3 y Visual Studio Code con la extensión de Python.
+
+1. Abrir la carpeta del proyecto en Visual Studio Code.
+2. Entrar a la carpeta avance1 y abrir el archivo .py del ejercicio que se desea ejecutar.
+3. Presionar el botón de ejecutar archivo de Python, ubicado arriba a la derecha.
+4. Escribir los datos solicitados en la terminal y presionar Enter después de cada dato.
+
+Cada ejercicio se ejecuta por separado. Para realizar otra prueba, volver a ejecutar el archivo.
