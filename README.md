@@ -17,7 +17,7 @@ El proyecto incluye cuatro ejercicios en Python:
 ## Archivos
 
 - avance1: contiene los cuatro programas.
-- documentacion: contiene el informe y los diagramas de flujo.
+- Documentos: contiene el informe PDF del primer avance, incluidos los diagramas de flujo.
 
 ## Cómo ejecutar los programas
 
@@ -29,3 +29,7 @@ Se necesita Python 3 y Visual Studio Code con la extensión de Python.
 4. Escribir los datos solicitados en la terminal y presionar Enter después de cada dato.
 
 Cada ejercicio se ejecuta por separado. Para realizar otra prueba, volver a ejecutar el archivo.
+
+## Convenciones y estilos
+
+Se usan nombres de variables en minúsculas separados por guiones bajos, constantes en mayúsculas y sangría de cuatro espacios. El código incluye comentarios para identificar sus partes.
