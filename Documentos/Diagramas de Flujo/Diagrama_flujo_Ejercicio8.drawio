@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="zmiWB6xEbmDbrb40Cxli">
+    <mxGraphModel dx="2044" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CxJdT-I-JeR236amMHpQ-49" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="INICIO" vertex="1">
+          <mxGeometry height="80" width="120" x="577.5" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-92" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="recursos_limitantes = recursos_limitantes + &#39;, &#39;" vertex="1">
+          <mxGeometry height="50" width="265" x="1037.5" y="2150" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-51" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Leer cantidad_tripulantes&lt;br&gt;Leer dias_ida&lt;br&gt;Leer combustible_disponible&lt;br&gt;Leer oxigeno_disponible&lt;br&gt;Leer energia_disponible&lt;br&gt;Leer provisiones_disponibles" vertex="1">
+          <mxGeometry height="90" width="210" x="532.5" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-86" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="recursos_limitantes = &#39;&#39;" vertex="1">
+          <mxGeometry height="50" width="140" x="1100" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-71" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-77" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="2050" />
+              <mxPoint x="280" y="2240" />
+              <mxPoint x="540" y="2240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="energia_disponible &lt; CONSUMO_ENERGIA_DIARIO" vertex="1">
+          <mxGeometry height="80" width="480" x="300" y="2010" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-54" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;dias_completados = 0&lt;/div&gt;&lt;div&gt;regreso_activo = True&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="132" x="-3" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-55" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-64" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-30">
+          <mxGeometry relative="1" x="-0.0882" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="750" />
+              <mxPoint x="530" y="1390" />
+              <mxPoint x="310" y="1390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="dias_completados &lt; dias_ida and regreso_activo" vertex="1">
+          <mxGeometry height="80" width="446" x="-160" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-57" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-58" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="combustible_disponible &amp;gt;= CONSUMO_COMBUSTIBLE_DIARIO&lt;br&gt;and oxigeno_disponible &amp;gt;= oxigeno_diario&lt;br&gt;and energia_disponible &amp;gt;= CONSUMO_ENERGIA_DIARIO&lt;br&gt;and provisiones_disponibles &amp;gt;= provisiones_diarias" vertex="1">
+          <mxGeometry height="130" width="446" x="-160" y="855" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-85" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="dias_supervivencia = dias_provisiones" vertex="1">
+          <mxGeometry height="50" width="225" x="1057.5" y="1297" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-67" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="dia_interrumpido = dias_completados + 1" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="1530" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-70" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="672.5" y="1915" />
+              <mxPoint x="672.5" y="1970" />
+              <mxPoint x="540" y="1970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-11" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Mostrar &quot;Recurso insuficiente: oxígeno&quot;" vertex="1">
+          <mxGeometry height="50" width="225" x="427.5" y="1890" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-94" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-109" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1380" y="2450" />
+              <mxPoint x="1380" y="2940" />
+              <mxPoint x="1170" y="2940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-12" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="dias_provisiones == dias_supervivencia" vertex="1">
+          <mxGeometry height="80" width="360" x="990" y="2410" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-68" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-13" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Mostrar &quot;El regreso se interrumpió en el día&quot; dia_interrumpido &quot;.&quot;" vertex="1">
+          <mxGeometry height="60" width="243" x="418.5" y="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-83" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="dias_supervivencia = dias_energia" vertex="1">
+          <mxGeometry height="60" width="200" x="1070" y="1009" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-61" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=classic;endFill=1;" target="CxJdT-I-JeR236amMHpQ-7">
+          <mxGeometry relative="1" x="-0.0008" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-15" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Mostrar &quot;Día&quot; dias_completados &quot;| Combustible:&quot; combustible_disponible &quot;| Oxígeno:&quot; oxigeno_disponible &quot;| Energía:&quot; energia_disponible &quot;| Provisiones:&quot; provisiones_disponibles" vertex="1">
+          <mxGeometry height="110" width="243" x="-58.5" y="1224" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-73" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-78" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="312.5" y="2320" />
+              <mxPoint x="312.5" y="2510" />
+              <mxPoint x="540" y="2510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-16" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="provisiones_disponibles &lt; provisiones_diarias" vertex="1">
+          <mxGeometry height="80" width="415" x="332.5" y="2280" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-113" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-17" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Mostrar &quot;La tripulación regresó exitosamente a la Tierra.&quot;&lt;br&gt;Mostrar &quot;Combustible restante:&quot; combustible_disponible &quot;unidades&quot;&lt;br&gt;Mostrar &quot;Oxígeno restante:&quot; oxigeno_disponible &quot;unidades&quot;&lt;br&gt;Mostrar &quot;Energía restante:&quot; energia_disponible &quot;unidades&quot;&lt;br&gt;Mostrar &quot;Provisiones restantes:&quot; provisiones_disponibles &quot;unidades&quot;" vertex="1">
+          <mxGeometry height="110" width="370" x="-150" y="1530" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-95" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-108" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340" y="2608" />
+              <mxPoint x="1340" y="2820" />
+              <mxPoint x="1170" y="2820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-18" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="recursos_limitantes != &#39;&#39;" vertex="1">
+          <mxGeometry height="80" width="265" x="1037.5" y="2568" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-72" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="672.5" y="2185" />
+              <mxPoint x="672.5" y="2240" />
+              <mxPoint x="540" y="2240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-122" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-19" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Mostrar &quot;Recurso insuficiente: energía&quot;" vertex="1">
+          <mxGeometry height="50" width="225" x="427.5" y="2160" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-87" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-103" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1355" y="1595" />
+              <mxPoint x="1355" y="1810" />
+              <mxPoint x="1170" y="1810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-20" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="dias_oxigeno == dias_supervivencia" vertex="1">
+          <mxGeometry height="80" width="330" x="1005" y="1555" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-112" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-21" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Mostrar &quot;La tripulación no completó el regreso.&quot;" vertex="1">
+          <mxGeometry height="50" width="265" x="407.5" y="2550" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-111" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-22" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Mostrar &quot;Días por oxígeno:&quot; dias_oxigeno&lt;br&gt;Mostrar &quot;Días por energía:&quot; dias_energia&lt;div&gt;Mostrar &quot;Días por provisiones:&quot; dias_provisiones&lt;/div&gt;&lt;div&gt;Mostrar &quot;Supervivencia estimada:&quot; dias_supervivencia &quot;días&quot;&lt;br&gt;Mostrar &quot;Recurso(s) limitante(s):&quot; recursos_limitantes&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="350" x="995" y="2970" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-80" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-23" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Mostrar &quot;La tripulación quedó varada en el destino.&quot;" vertex="1">
+          <mxGeometry height="50" width="290" x="1025" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-81" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="dias_oxigeno = oxigeno_disponible // oxigeno_diario&lt;br&gt;dias_energia = energia_disponible // CONSUMO_ENERGIA_DIARIO&lt;br&gt;dias_provisiones = provisiones_disponibles // provisiones_diarias&lt;br&gt;dias_supervivencia = dias_oxigeno" vertex="1">
+          <mxGeometry height="90" width="290" x="1025" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-69" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-76" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="355" y="1790" />
+              <mxPoint x="355" y="1970" />
+              <mxPoint x="540" y="1970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-25" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="oxigeno_disponible &lt; oxigeno_diario" vertex="1">
+          <mxGeometry height="80" width="330" x="375" y="1750" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-88" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="recursos_limitantes = &#39;oxígeno&#39;" vertex="1">
+          <mxGeometry height="50" width="180" x="1080" y="1714" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-89" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-110" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1380" y="1890" />
+              <mxPoint x="1380" y="2370" />
+              <mxPoint x="1170" y="2370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-27" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="dias_energia == dias_supervivencia" vertex="1">
+          <mxGeometry height="80" width="330" x="1005" y="1850" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-98" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="recursos_limitantes = recursos_limitantes + &#39;provisiones&#39;" vertex="1">
+          <mxGeometry height="50" width="320" x="1010" y="2855" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-50" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CONSUMO_COMBUSTIBLE_DIARIO = 8&lt;br&gt;CONSUMO_OXIGENO_TRIPULANTE = 2&lt;br&gt;CONSUMO_ENERGIA_DIARIO = 5&lt;br&gt;CONSUMO_PROVISIONES_TRIPULANTE = 1" vertex="1">
+          <mxGeometry height="60" width="257" x="509" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-65" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-66" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-30" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="dias_completados == dias_ida" vertex="1">
+          <mxGeometry height="80" width="280" x="170" y="1415" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-93" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="recursos_limitantes = recursos_limitantes + &#39;energía&#39;" vertex="1">
+          <mxGeometry height="50" width="300" x="1020" y="2280" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-90" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-106" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1330" y="2040" />
+              <mxPoint x="1330" y="2240" />
+              <mxPoint x="1170" y="2240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-32" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="recursos_limitantes != &#39;&#39;" vertex="1">
+          <mxGeometry height="80" width="265" x="1037.5" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-82" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-99" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1355" y="900" />
+              <mxPoint x="1355" y="1110" />
+              <mxPoint x="1170" y="1110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-33" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="dias_energia &lt; dias_supervivencia" vertex="1">
+          <mxGeometry height="80" width="330" x="1005" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-52" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="combustible_regreso = dias_ida * CONSUMO_COMBUSTIBLE_DIARIO&lt;br&gt;oxigeno_diario = cantidad_tripulantes * CONSUMO_OXIGENO_TRIPULANTE&lt;br&gt;provisiones_diarias = cantidad_tripulantes * CONSUMO_PROVISIONES_TRIPULANTE" vertex="1">
+          <mxGeometry height="90" width="243" x="516.5" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-96" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="recursos_limitantes = recursos_limitantes + &#39;, &#39;" vertex="1">
+          <mxGeometry height="50" width="265" x="1037.5" y="2730" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-53" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-79" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-36" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="combustible_disponible &gt;= combustible_regreso" vertex="1">
+          <mxGeometry height="80" width="440" x="418.5" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-84" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-100" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1365" y="1184" />
+              <mxPoint x="1365" y="1390" />
+              <mxPoint x="1170" y="1390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-37" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="dias_provisiones &lt; dias_supervivencia" vertex="1">
+          <mxGeometry height="80" width="350" x="995" y="1144" as="geometry" />
+        </mxCell>
+        <mxCell id="gwmPm4NpRuxC6-15Cwc0-3" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-7">
+          <mxGeometry relative="1" x="-0.0476" as="geometry">
+            <Array as="points">
+              <mxPoint x="434" y="1370" />
+              <mxPoint x="-220" y="1370" />
+              <mxPoint x="-220" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="regreso_activo = False" vertex="1">
+          <mxGeometry height="60" width="132" x="368" y="985" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-59" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;combustible_disponible = combustible_disponible - CONSUMO_COMBUSTIBLE_DIARIO&lt;/div&gt;&lt;div&gt;oxigeno_disponible = oxigeno_disponible - oxigeno_diario&lt;/div&gt;&lt;div&gt;energia_disponible = energia_disponible - CONSUMO_ENERGIA_DIARIO&lt;/div&gt;&lt;div&gt;provisiones_disponibles = provisiones_disponibles - provisiones_diarias&lt;/div&gt;&lt;div&gt;dias_completados = dias_completados + 1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="125" width="350" x="-112" y="1059" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-74" edge="1" parent="1" source="CxJdT-I-JeR236amMHpQ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="CxJdT-I-JeR236amMHpQ-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="681.5" y="2455" />
+              <mxPoint x="681.5" y="2510" />
+              <mxPoint x="540" y="2510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-40" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Mostrar &quot;Recurso insuficiente: provisiones&quot;" vertex="1">
+          <mxGeometry height="50" width="243" x="418.5" y="2430" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-41" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="FIN" vertex="1">
+          <mxGeometry height="80" width="120" x="652.5" y="2995" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-114" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Retorno al ciclo diario&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="150" x="-220" y="1342" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-115" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;SÍ&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="120" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-116" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;NO&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="440" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-117" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;SÍ&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="358.5" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-118" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;SÍ&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="50" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-120" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;SÍ&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="50" y="1012" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-121" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;SÍ&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="530" y="1850" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-123" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;SÍ&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="530" y="2120" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-124" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;SÍ&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="530" y="2390" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-126" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;NO&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="858.5" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-127" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;NO&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="280" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-128" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;NO&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="280" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-129" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;NO&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="350" y="1810" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-130" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;NO&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="272.5" y="2060" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-131" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;NO&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="310" y="2330" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-134" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;NO&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="1300" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-135" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;NO&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="1310" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-136" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;NO&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="1300" y="1610" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-137" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;NO&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="1310" y="1900" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-138" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;NO&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="1320" y="2460" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-139" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;NO&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="1280" y="2620" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-140" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;NO&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="1280" y="2050" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-141" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;SÍ&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="1160" y="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-142" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;SÍ&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="1160" y="1940" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-143" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;SÍ&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="1160" y="2090" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-144" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;SÍ&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="1160" y="2500" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-145" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;SÍ&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="1160" y="2660" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-146" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;SÍ&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="1160" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="CxJdT-I-JeR236amMHpQ-147" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;SÍ&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="1160" y="950" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
