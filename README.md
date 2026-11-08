@@ -27,6 +27,11 @@ El proyecto simula una misión espacial mediante ejercicios en Python. Cada prog
 - Avance2/: contiene ejercicio7_exploracion.py y ejercicio8_regreso.py.
 - Documentos/: contiene el informe del primer avance, los informes PDF de los ejercicios 7 y 8 y los diagramas de flujo editables del segundo avance en una subcarpeta.
 
+### Informes del Avance 2
+
+- [Ejercicio 7: Exploración del destino](Documentos/ejercicio7_exploracion.pdf)
+- [Ejercicio 8: Regreso a la Tierra](Documentos/ejercicio8_regreso.pdf)
+
 ## Cómo ejecutar los programas
 
 1. Abrir la carpeta del proyecto en Visual Studio Code con Python 3 y la extensión de Python instalados.
