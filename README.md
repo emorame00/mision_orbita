@@ -2,45 +2,62 @@
 
 Proyecto del curso Principios de Programación 1.
 
-- Estudiante: Eddie Steven Mora Mesén
-- Sección: SCV6
+*Estudiante:* Eddie Steven Mora Mesén  
+*Sección:* SCV6
 
 ## Descripción
 
-El proyecto simula una misión espacial mediante ejercicios en Python. Cada programa se ejecuta por separado.
+El proyecto consiste en un simulador de misiones espaciales desarrollado en Python. Los primeros dos avances contienen ejercicios independientes que posteriormente se integran en un solo programa en el tercer avance.
 
-### Avance 1: Preparación de la misión
+## Avance 1: Preparación de la misión
 
 - Ejercicio 1: Calcula los recursos necesarios para la misión.
 - Ejercicio 2: Comprueba si el combustible alcanza para la ida, el regreso y la reserva de emergencia.
 - Ejercicio 3: Verifica si hay suficiente oxígeno y provisiones para la tripulación.
 - Ejercicio 4: Determina si se autoriza el lanzamiento según los recursos disponibles.
 
-### Avance 2: Exploración y regreso
+## Avance 2: Exploración y regreso
 
-- Ejercicio 7: Permite analizar el terreno, recolectar muestras y realizar observaciones. Al finalizar, muestra los puntos científicos obtenidos y los recursos restantes.
-- Ejercicio 8: Simula el regreso a la Tierra y muestra los recursos restantes al final de cada día de viaje. Si la tripulación queda varada en el destino, estima cuántos días puede sobrevivir.
+- Ejercicio 7: Permite realizar actividades de exploración científica y obtener puntos.
+- Ejercicio 8: Simula el regreso a la Tierra y calcula los días de supervivencia si la tripulación queda varada.
+
+## Avance 3: Sistema integrado Misión Órbita
+
+El programa integra las etapas de planificación, autorización del lanzamiento, viaje de ida, exploración científica y regreso a la Tierra.
+
+También permite generar un reporte final de cada misión y consultar el historial de misiones ordenado de mayor a menor puntaje científico.
+
+El sistema utiliza funciones, listas, tuplas y matrices para organizar y procesar la información.
 
 ## Archivos
 
 - avance1/: contiene los programas de los ejercicios 1 al 4.
-- Avance2/: contiene ejercicio7_exploracion.py y ejercicio8_regreso.py.
-- Documentos/: contiene el informe del primer avance, los informes PDF de los ejercicios 7 y 8 y los diagramas de flujo editables del segundo avance en una subcarpeta.
-
-### Informes del Avance 2
-
-- [Ejercicio 7: Exploración del destino](Documentos/ejercicio7_exploracion.pdf)
-- [Ejercicio 8: Regreso a la Tierra](Documentos/ejercicio8_regreso.pdf)
+- Avance2/: contiene los programas de los ejercicios 7 y 8.
+- Avance3/: contiene el programa integrado mision_orbita.py.
+- Documentos/: contiene los informes de los tres avances y los diagramas de flujo.
 
 ## Cómo ejecutar los programas
 
-1. Abrir la carpeta del proyecto en Visual Studio Code con Python 3 y la extensión de Python instalados.
-2. Entrar a avance1/ o Avance2/ y abrir el archivo .py del ejercicio que se desea probar.
-3. Presionar el botón de ejecutar archivo de Python, ubicado arriba a la derecha.
-4. Ingresar los datos solicitados en la terminal y presionar Enter después de cada dato.
+1. Abrir la carpeta del proyecto en Visual Studio Code con Python 3 instalado.
+2. Para ejecutar los ejercicios anteriores, abrir el archivo correspondiente de cada avance.
+3. Para ejecutar el sistema integrado, abrir Avance3/mision_orbita.py.
+4. Presionar el botón de ejecutar archivo de Python.
+5. Ingresar los datos solicitados en la terminal y presionar Enter después de cada dato.
 
-Para realizar otra prueba, volver a ejecutar el archivo.
+El sistema integrado permite ejecutar varias misiones, consultar el historial y salir desde el menú principal.
+
+También se puede ejecutar desde la terminal con el comando:
+
+bash
+python Avance3/mision_orbita.py
+
+
+## Documentación y pruebas
+
+El informe del tercer avance incluye las tablas de variables, los nueve diagramas de flujo, el código fuente y los 25 casos de prueba con sus respectivas capturas y resultados.
 
 ## Convenciones y estilo
 
-Los nombres de las variables se escriben en minúsculas, con guiones bajos entre palabras. Las constantes se escriben en mayúsculas. Se usa sangría de cuatro espacios y comentarios para identificar las partes de cada programa.
+Los nombres de las variables y funciones se escriben en minúsculas, con guiones bajos entre palabras. Las constantes se escriben en mayúsculas. Se utiliza sangría de cuatro espacios y comentarios para identificar los bloques del programa.
+
+El sistema no requiere librerías externas.
