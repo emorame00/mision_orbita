@@ -52,7 +52,7 @@ python avance3/mision_orbita.py
 
 ## Documentación y pruebas
 
-El informe del tercer avance incluye las tablas de variables, los nueve diagramas de flujo, el código fuente y los 25 casos de prueba con sus respectivas capturas y resultados.
+El informe del tercer avance incluye las tablas de variables, los nueve diagramas de flujo, el código fuente y los 26 casos de prueba con sus respectivas capturas y resultados.
 
 ### Informes del proyecto
 
