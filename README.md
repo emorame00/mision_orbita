@@ -32,15 +32,15 @@ El sistema utiliza funciones, listas, tuplas y matrices para organizar y procesa
 ## Archivos
 
 - avance1/: contiene los programas de los ejercicios 1 al 4.
-- Avance2/: contiene los programas de los ejercicios 7 y 8.
-- Avance3/: contiene el programa integrado mision_orbita.py.
-- Documentos/: contiene los informes de los tres avances y los diagramas de flujo.
+- avance2/: contiene los programas de los ejercicios 7 y 8.
+- avance3/: contiene el programa integrado mision_orbita.py.
+- documentacion/: contiene los informes de los tres avances y los diagramas de flujo.
 
 ## Cómo ejecutar los programas
 
 1. Abrir la carpeta del proyecto en Visual Studio Code con Python 3 instalado.
 2. Para ejecutar los ejercicios anteriores, abrir el archivo correspondiente de cada avance.
-3. Para ejecutar el sistema integrado, abrir Avance3/mision_orbita.py.
+3. Para ejecutar el sistema integrado, abrir avance3/mision_orbita.py.
 4. Presionar el botón de ejecutar archivo de Python.
 5. Ingresar los datos solicitados en la terminal y presionar Enter después de cada dato.
 
@@ -48,13 +48,21 @@ El sistema integrado permite ejecutar varias misiones, consultar el historial y 
 
 También se puede ejecutar desde la terminal con el comando:
 
-bash
-python Avance3/mision_orbita.py
-
+python avance3/mision_orbita.py
 
 ## Documentación y pruebas
 
 El informe del tercer avance incluye las tablas de variables, los nueve diagramas de flujo, el código fuente y los 25 casos de prueba con sus respectivas capturas y resultados.
+
+### Informes del proyecto
+
+- [Primer avance](documentacion/avance1_mision_orbita.pdf)
+- [Segundo avance](documentacion/avance2_mision_orbita.pdf)
+- [Tercer avance](documentacion/avance3_mision_orbita.pdf)
+
+### Diagramas de flujo
+
+- [Diagramas editables del tercer avance](documentacion/Diagramas%20de%20Flujo/Diagramas_Flujo_avance3.drawio)
 
 ## Convenciones y estilo
 
